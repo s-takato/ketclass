@@ -1,0 +1,9 @@
+[1/x,1]
+
+Script
+q1i1:log(x)
+q1o1:diff(q1i1,x)
+q1o2:integrate(q1i1,x,1,%e)
+q1o1::q1o2
+end
+
