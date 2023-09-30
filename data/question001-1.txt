@@ -13,3 +13,20 @@ Mxcalc
 o1:diff(i1,x)
 o2:integrate(i1,x,1,%e)
 return o1::o2
+
+Q
+微分せよ．
+[1] y=x^(2)
+[2] y=sin(2x)
+Sheet
+[1]= ::5
+[2]= ::5
+Ans
+[1] 
+[2] 
+Mxcalc
+[1] x^(2)
+[2] sin(2x)
+o1:diff(i1,x)
+o2:diff(i2,x)
+return o1::o2

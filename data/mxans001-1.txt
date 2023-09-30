@@ -7,3 +7,13 @@ q1o2:integrate(q1i1,x,1,%e)
 q1o1::q1o2
 end
 
+[2*x,2*cos(2*x)]
+
+Script
+q2i1:x^(2)
+q2i2:sin(2*x)
+q2o1:diff(q2i1,x)
+q2o2:diff(q2i2,x)
+q2o1::q2o2
+end
+

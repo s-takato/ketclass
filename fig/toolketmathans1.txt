@@ -1,0 +1,15 @@
+NIL
+(%i3) powerdisp:false
+(%i4) display2d:false
+(%i5) linel:1000
+(%i6) q2i1:x^2
+(%i7) q2i2:sin(2*x)
+(%i8) q2o1:diff(q2i1,x)
+(%i9) q2o2:diff(q2i2,x)
+(%i10) disp(q2o1)
+2*x
+
+(%i11) disp(q2o2)
+2*cos(2*x)
+
+(%i12) closefile()
