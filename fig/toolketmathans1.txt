@@ -1,0 +1,14 @@
+NIL
+(%i3) powerdisp:false
+(%i4) display2d:false
+(%i5) linel:1000
+(%i6) q1i1:log(x)
+(%i7) q1o1:diff(q1i1,x)
+(%i8) q1o2:integrate(q1i1,x,1,%e)
+(%i9) disp(q1o1)
+1/x
+
+(%i10) disp(q1o2)
+1
+
+(%i11) closefile()

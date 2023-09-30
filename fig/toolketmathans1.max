@@ -1,0 +1,11 @@
+writefile("/Users/takatoosetsuo/ketclass.git/fig/toolketmathans1.txt")$/*##*/
+powerdisp:false$/*##*/
+display2d:false$/*##*/
+linel:1000$/*##*/
+q1i1:log(x)$/*##*/
+q1o1:diff(q1i1,x)$/*##*/
+q1o2:integrate(q1i1,x,1,%e)$/*##*/
+disp(q1o1)$/*##*/
+disp(q1o2)$/*##*/
+closefile()$/*##*/
+quit()$/*##*/
